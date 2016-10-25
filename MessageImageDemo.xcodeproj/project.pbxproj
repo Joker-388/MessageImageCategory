@@ -446,6 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = joker.MessageImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -459,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = joker.MessageImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -527,6 +529,7 @@
 				43C00B191DADCFBA00B1BACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43C00B1A1DADCFBA00B1BACA /* Build configuration list for PBXNativeTarget "MessageImageDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +538,7 @@
 				43C00B1C1DADCFBA00B1BACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43C00B1D1DADCFBA00B1BACA /* Build configuration list for PBXNativeTarget "MessageImageDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +547,7 @@
 				43C00B1F1DADCFBA00B1BACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

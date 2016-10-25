@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		43C00AEF1DADCFB900B1BACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C00AEE1DADCFB900B1BACA /* main.m */; };
 		43C00AFA1DADCFBA00B1BACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C00AF91DADCFBA00B1BACA /* Assets.xcassets */; };
-		43C00AFD1DADCFBA00B1BACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C00AFB1DADCFBA00B1BACA /* LaunchScreen.storyboard */; };
 		43C00B081DADCFBA00B1BACA /* MessageImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C00B071DADCFBA00B1BACA /* MessageImageDemoTests.m */; };
 		43C00B131DADCFBA00B1BACA /* MessageImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C00B121DADCFBA00B1BACA /* MessageImageDemoUITests.m */; };
 		43C00B301DAE424100B1BACA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C00B2B1DAE424100B1BACA /* AppDelegate.m */; };
@@ -39,7 +38,6 @@
 		43C00AEA1DADCFB900B1BACA /* MessageImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C00AEE1DADCFB900B1BACA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43C00AF91DADCFBA00B1BACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		43C00AFC1DADCFBA00B1BACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43C00AFE1DADCFBA00B1BACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43C00B031DADCFBA00B1BACA /* MessageImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C00B071DADCFBA00B1BACA /* MessageImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageImageDemoTests.m; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				43C00B331DAE424400B1BACA /* UIImage+MessageImage */,
 				43C00B291DAE424100B1BACA /* Class */,
 				43C00AF91DADCFBA00B1BACA /* Assets.xcassets */,
-				43C00AFB1DADCFBA00B1BACA /* LaunchScreen.storyboard */,
 				43C00AFE1DADCFBA00B1BACA /* Info.plist */,
 				43C00AED1DADCFB900B1BACA /* Supporting Files */,
 			);
@@ -270,7 +267,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C00AFD1DADCFBA00B1BACA /* LaunchScreen.storyboard in Resources */,
 				43C00AFA1DADCFBA00B1BACA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,17 +330,6 @@
 			targetProxy = 43C00B0F1DADCFBA00B1BACA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		43C00AFB1DADCFBA00B1BACA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43C00AFC1DADCFBA00B1BACA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		43C00B151DADCFBA00B1BACA /* Debug */ = {
@@ -441,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = P2R6KS7ECX;
 				INFOPLIST_FILE = MessageImageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -456,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = P2R6KS7ECX;
 				INFOPLIST_FILE = MessageImageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

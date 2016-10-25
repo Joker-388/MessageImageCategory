@@ -1,6 +1,8 @@
 Message tip icon 
 ====
-![preview](https://travis-ci.org/Joker-388/MessageImageCategory.svg?branch=master)<br>
+[![preview](https://travis-ci.org/Joker-388/MessageImageCategory.svg?branch=master)](http://www.sixstr.me)&nbsp;
+[![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
+<br><br>
 This is category for UIImage, you can add message count tip icon in the top-right corner.<br>
 <br> 
 ![preview](https://github.com/Joker-388/MessageImageCategory/blob/master/Preview/ms_image.gif)  

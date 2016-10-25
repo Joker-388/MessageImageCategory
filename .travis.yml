@@ -1,1 +1,5 @@
+osx_image: xcode8.0
 language: objective-c
+xcode_project: MessageImageDemo.xcodeproj
+script: xcodebuild -project URLHelper.xcodeproj -scheme "MessageImageDemo" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
+

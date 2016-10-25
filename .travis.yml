@@ -1,5 +1,5 @@
 language: objective-c
-xcode_project: ./MessageImageDemo.xcodeproj
+xcode_project: MessageImageDemo.xcodeproj
 xcode_scheme: MessageImageDemo
 osx_image: xcode8.0
 
